@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* header section starts */
+.header{
+    background-image: url(images/donation12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.header_text{
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+.header_text h1{   
+    color: rgb(255, 238, 238);   
+    font-size: 70px;    
+}
+.header_text p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.btn{
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;
+}
+
+/* donate section starts */
+
+.donate_text{
+    text-align: center;
+}
+.donate_heading{
+    font-size: 60px;
+}
+
+.donate_paragraph{
+     font-size: 20px;
+     color: gray;
+}
+.donate_amount{
+    display: flex;    
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.donate_amount h2{
+    font-size: 40px;
+    width: 150px;
+    padding: 50px;
+    text-align: center;
+    /* margin-left: 70px;
+    margin-right: 70px; */
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+#orange_color{
+    background-color: pink;
+    border: 2px solid red;
+}
+
+.input_field{
+    border: none;
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 450px;
+
+}
+
+.input_section{
+    margin-top: 50px;
+}
+.horizental{
+    width: 700px;
+}
+
+/* donate plan section  */
+.donate_head{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donate_head h1{
+    font-size: 50px;
+    color: black
+}
+.donate_head p{
+    font-size: 20px;
+    color: gray;
+}
+.donate_types{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;  
+    margin-top: 50px;  
+}
+.donate_catagory{
+    width: 30%;
+    padding: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.donate_catagory h3{
+    font-size: 30px;
+}
+.donate_catagory p{
+    font-size: 23px;
+    color: gray;
+}
+.donate_catagory img{
+    height: 70px;
+}
+#donate_food{
+    background-color: rgb(209, 238, 238);
+}
+#donate_shelter{
+    background-color: rgb(255, 208, 215);
+}
+#donate_education{
+    background-color: bisque;
+}
+
+/* about us section starts  */
+.about_us{
+    display: flex;
+    margin-top: 70px;
+}
+.about_img{
+    width: 50%;
+}
+.about_img img{
+    height: 500px;
+    margin-right: 30px;
+}
+.about_text{
+    width: 50%;
+    padding-left: 30px;
+}
+.about_text h1{
+    font-size: 70px;
+}
+.about_text h3{
+    font-size: 35px;
+}
+.about_text p{
+    font-size: 25px;
+    color: gray;
+    padding-bottom: 30px;
+}
+.about_btn{
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;
+    
+}
+
+/* volunter section start  */
+.volunteer_section{
+    margin-top: 150px;
+    text-align: center;
+}
+.volunteer_section h1{
+    font-size: 50px;
+}
+.volunteer_parts{
+    display: flex;
+    justify-content: center;
+  
+}
+.volunteer{
+    padding: 30px;
+}
+.volunteer p{
+    text-align: center;
+    font-size: 24px;
+}
+.volunteer img{
+    height: 500px;
+    width: 400px;
+}
+
+/* update section starts  */
+.update{
+    text-align: center;
+}
+.update h1{
+    font-size: 50px;
+}
+.update p{
+    font-size: 20px;
+    color: gray;
+}
+.update_input{
+    background-color:bisque;
+    text-align: center;
+    padding: 90px; 
+    height: 40px;
+    width: 50%;   
+    margin-left: 320px;
+}
+.update_input input{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(246, 223, 223);
+}
+.subs_btn{
+    text-decoration: none;
+    background-color:tomato;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+}
+
+/* footer section starts  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+footer h1{
+    color: orange;
+}
